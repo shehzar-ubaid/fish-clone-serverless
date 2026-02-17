@@ -1,4 +1,4 @@
-runpod==1.6.2
+runpod>=1.6.0
 torch>=2.4.0
 torchaudio>=2.4.0
 numpy<2.0.0
@@ -7,6 +7,3 @@ librosa
 pydub
 requests
 boto3
-# Removed: fish-audio-sdk (not needed if using direct inference)
-# Removed: modelscope (using huggingface-cli instead)
-# Removed: nltk (not used in handler)
